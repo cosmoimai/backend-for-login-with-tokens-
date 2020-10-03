@@ -15,19 +15,19 @@ process to open and enjoy the process
 2. In the very first folder write npm dev run to run the server
 3. open the postman
 4. And here are the sever addresses(don't forget to put https://localhost:3000) for adding you have to use postman raw section and send file through json in the body section
-    /users/signup (post operation to add user id)
-    /users/login (post operation to login if your username is present)
-    /users/logout (post operation to logout)
-    /users/me (get if you have logged in this will give your info)
-    /users/:id (get operation to get info with id)
-    /users/me (patch operation to update "body you have to provide")
-    /users/me ("delete the specific token user")
+1.   /users/signup (post operation to add user id)
+2.    /users/login (post operation to login if your username is present)
+3.    /users/logout (post operation to logout)
+4.    /users/me (get if you have logged in this will give your info)
+5.    /users/:id (get operation to get info with id)
+6.    /users/me (patch operation to update "body you have to provide")
+7.    /users/me ("delete the specific token user")
     with this you can create, delete, change and update
     Now for the Tasks that you can add to a specific id's (don't take tension of id's of the task when you a get operation on the tasks you will get id's)
-    /tasks (post operation to post a task)
-    /tasks (get operation to get the list of tasks associated)
-    /tasks/:id (get operation to get a specific through specific if you have id of that task)
-    /tasks/:id (patch operation to update the task)
-    /tasks/:id (delete operation to delete the taskwith its id)
+ 1.   /tasks (post operation to post a task)
+ 2.   /tasks (get operation to get the list of tasks associated)
+ 3.   /tasks/:id (get operation to get a specific through specific if you have id of that task)
+ 4.   /tasks/:id (patch operation to update the task)
+ 5.   /tasks/:id (delete operation to delete the taskwith its id)
     
    
